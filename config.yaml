@@ -1,0 +1,7 @@
+artifacts_root: artifacts
+
+data_ingestion:
+  data_root: data
+  data_file: raw.csv
+
+

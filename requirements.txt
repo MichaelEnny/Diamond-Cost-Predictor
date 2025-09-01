@@ -1,0 +1,11 @@
+pandas
+scikit-learn
+numpy
+seaborn
+flask
+mlflow==2.2.2
+dvc
+ipykernel
+xgboost
+apache-airflow==2.9.3
+tqdm

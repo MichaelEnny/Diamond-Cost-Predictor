@@ -1,0 +1,15 @@
+artifact_uri: file:///E:/PROJECTS/Gemstone%20Price%20Prediction%20End%20to%20End%20Pipeline/mlruns/0/2cb2b7970a9e41168d83ecb1b17227ae/artifacts
+end_time: 1723923545648
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 2cb2b7970a9e41168d83ecb1b17227ae
+run_name: bold-squirrel-987
+run_uuid: 2cb2b7970a9e41168d83ecb1b17227ae
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1723923540400
+status: 3
+tags: []
+user_id: Saurabh Chatterjee
