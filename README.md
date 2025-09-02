@@ -65,6 +65,55 @@ The Diamond Price Predictor System is a production-ready ML platform targeting t
 
 ---
 
+## 🛠️ Technologies Used
+
+### Core ML & Data Science
+- ![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white) **Python 3.9+** - Primary programming language
+- ![XGBoost](https://img.shields.io/badge/XGBoost-FF6600?style=flat&logo=xgboost&logoColor=white) **XGBoost** - Gradient boosting framework for price prediction
+- ![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat&logo=pandas&logoColor=white) **Pandas** - Data manipulation and analysis
+- ![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat&logo=numpy&logoColor=white) **NumPy** - Numerical computing and array operations
+- ![Scikit-learn](https://img.shields.io/badge/Scikit--learn-F7931E?style=flat&logo=scikit-learn&logoColor=white) **Scikit-learn** - ML preprocessing, evaluation, and utilities
+
+### Web Frameworks & APIs
+- ![Flask](https://img.shields.io/badge/Flask-000000?style=flat&logo=flask&logoColor=white) **Flask** - Lightweight web framework for REST API
+- ![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=flat&logo=streamlit&logoColor=white) **Streamlit** - Interactive web dashboard and UI
+- ![Gunicorn](https://img.shields.io/badge/Gunicorn-499848?style=flat&logo=gunicorn&logoColor=white) **Gunicorn** - WSGI HTTP server for production deployment
+- **Flask-CORS** - Cross-origin resource sharing support
+
+### MLOps & Infrastructure
+- ![MLflow](https://img.shields.io/badge/MLflow-0194E2?style=flat&logo=mlflow&logoColor=white) **MLflow** - Experiment tracking, model registry, and lifecycle management
+- ![DVC](https://img.shields.io/badge/DVC-945DD6?style=flat&logo=dvc&logoColor=white) **DVC** - Data and model versioning with Git integration
+- ![Apache Airflow](https://img.shields.io/badge/Apache%20Airflow-017CEE?style=flat&logo=apache-airflow&logoColor=white) **Apache Airflow** - Pipeline orchestration and workflow automation
+- ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white) **Docker** - Containerization platform
+- **Docker Compose** - Multi-container application orchestration
+
+### Data Processing & Storage
+- **StandardScaler** - Feature normalization and standardization
+- **Pickle** - Model serialization and artifact storage
+- ![YAML](https://img.shields.io/badge/YAML-CB171E?style=flat&logo=yaml&logoColor=white) **YAML** - Configuration management
+- **SQLite** - Local database for MLflow tracking
+
+### Development & Testing
+- ![Git](https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=white) **Git** - Version control system
+- ![pytest](https://img.shields.io/badge/Pytest-0A9EDC?style=flat&logo=pytest&logoColor=white) **pytest** - Testing framework (planned)
+- **Black** - Code formatting (planned)
+- **Flake8** - Code linting and style checking (planned)
+- **MyPy** - Static type checking (planned)
+
+### Deployment & Monitoring
+- **Container Registry** - Docker image storage and management
+- **Health Check APIs** - System health monitoring endpoints  
+- **Performance Tracking** - Request metrics and response time monitoring
+- **Prometheus & Grafana** - Advanced monitoring stack (planned)
+
+### Cloud & Infrastructure (Planned)
+- **AWS/GCP/Azure** - Cloud deployment platforms
+- **Kubernetes** - Container orchestration
+- **Nginx** - Load balancer and reverse proxy
+- **Redis** - Caching layer
+
+---
+
 ## 📁 Project Structure
 
 ```

@@ -5,133 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8aa7e47f-a931-4360-abfb-184b2ef1396b" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.dockerignore" beforeDir="false" afterPath="$PROJECT_DIR$/.dockerignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.dvc/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.dvc/config" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.dvcignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.github/workflows/.gitkeep" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/E2E-Diamond-Price-Predictor.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CLAUDE.md" beforeDir="false" afterPath="$PROJECT_DIR$/CLAUDE.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dockerfile.airflow" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dockerfile.flask" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerfile.flask" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/airflow/dags/batch_prediction.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/airflow/dags/training_pipeline.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/artifacts/model.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/artifacts/model.pkl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/artifacts/model_name.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/artifacts/preprocessor.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/artifacts/preprocessor.pkl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/sample_submission.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/test.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/train.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dvc.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/ML Pipeline Flowchart - 1 _Opaque.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/ML Pipeline Flowchart - 2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/ML_Pipeline_Flowchart-1_Opaque-Signed.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/ML_Pipeline_Flowchart-2-signed.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/MLflow Experiment - UI Screenshot 1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/MLflow Experiment - UI Screenshot 2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/Streamlit_Web_App_Home.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/init_setup.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mlruns/0/2cb2b7970a9e41168d83ecb1b17227ae/artifacts/xgboost/MLmodel" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mlruns/0/2cb2b7970a9e41168d83ecb1b17227ae/artifacts/xgboost/conda.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mlruns/0/2cb2b7970a9e41168d83ecb1b17227ae/artifacts/xgboost/model.pkl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mlruns/0/2cb2b7970a9e41168d83ecb1b17227ae/artifacts/xgboost/python_env.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mlruns/0/2cb2b7970a9e41168d83ecb1b17227ae/artifacts/xgboost/requirements.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mlruns/0/2cb2b7970a9e41168d83ecb1b17227ae/meta.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mlruns/0/2cb2b7970a9e41168d83ecb1b17227ae/metrics/mae" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mlruns/0/2cb2b7970a9e41168d83ecb1b17227ae/metrics/r2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mlruns/0/2cb2b7970a9e41168d83ecb1b17227ae/metrics/rmse" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mlruns/0/2cb2b7970a9e41168d83ecb1b17227ae/params/alpha" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mlruns/0/2cb2b7970a9e41168d83ecb1b17227ae/params/colsample_bytree" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mlruns/0/2cb2b7970a9e41168d83ecb1b17227ae/params/learning_rate" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mlruns/0/2cb2b7970a9e41168d83ecb1b17227ae/params/max_depth" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mlruns/0/2cb2b7970a9e41168d83ecb1b17227ae/params/n_estimators" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mlruns/0/2cb2b7970a9e41168d83ecb1b17227ae/tags/mlflow.log-model.history" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mlruns/0/2cb2b7970a9e41168d83ecb1b17227ae/tags/mlflow.runName" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mlruns/0/2cb2b7970a9e41168d83ecb1b17227ae/tags/mlflow.source.git.commit" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mlruns/0/2cb2b7970a9e41168d83ecb1b17227ae/tags/mlflow.source.name" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mlruns/0/2cb2b7970a9e41168d83ecb1b17227ae/tags/mlflow.source.type" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mlruns/0/2cb2b7970a9e41168d83ecb1b17227ae/tags/mlflow.user" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mlruns/0/6f7e8aabab4a4208abd090803a5efe99/artifacts/xgboost/MLmodel" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mlruns/0/6f7e8aabab4a4208abd090803a5efe99/artifacts/xgboost/conda.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mlruns/0/6f7e8aabab4a4208abd090803a5efe99/artifacts/xgboost/model.pkl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mlruns/0/6f7e8aabab4a4208abd090803a5efe99/artifacts/xgboost/python_env.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mlruns/0/6f7e8aabab4a4208abd090803a5efe99/artifacts/xgboost/requirements.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mlruns/0/6f7e8aabab4a4208abd090803a5efe99/meta.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mlruns/0/6f7e8aabab4a4208abd090803a5efe99/metrics/mae" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mlruns/0/6f7e8aabab4a4208abd090803a5efe99/metrics/r2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mlruns/0/6f7e8aabab4a4208abd090803a5efe99/metrics/rmse" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mlruns/0/6f7e8aabab4a4208abd090803a5efe99/params/alpha" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mlruns/0/6f7e8aabab4a4208abd090803a5efe99/params/colsample_bytree" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mlruns/0/6f7e8aabab4a4208abd090803a5efe99/params/learning_rate" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mlruns/0/6f7e8aabab4a4208abd090803a5efe99/params/max_depth" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mlruns/0/6f7e8aabab4a4208abd090803a5efe99/params/n_estimators" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mlruns/0/6f7e8aabab4a4208abd090803a5efe99/tags/mlflow.log-model.history" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mlruns/0/6f7e8aabab4a4208abd090803a5efe99/tags/mlflow.runName" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mlruns/0/6f7e8aabab4a4208abd090803a5efe99/tags/mlflow.source.git.commit" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mlruns/0/6f7e8aabab4a4208abd090803a5efe99/tags/mlflow.source.name" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mlruns/0/6f7e8aabab4a4208abd090803a5efe99/tags/mlflow.source.type" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mlruns/0/6f7e8aabab4a4208abd090803a5efe99/tags/mlflow.user" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mlruns/0/7f297ac06f7b4bdfb788e14b4be685f6/artifacts/xgboost/MLmodel" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mlruns/0/7f297ac06f7b4bdfb788e14b4be685f6/artifacts/xgboost/conda.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mlruns/0/7f297ac06f7b4bdfb788e14b4be685f6/artifacts/xgboost/model.pkl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mlruns/0/7f297ac06f7b4bdfb788e14b4be685f6/artifacts/xgboost/python_env.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mlruns/0/7f297ac06f7b4bdfb788e14b4be685f6/artifacts/xgboost/requirements.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mlruns/0/7f297ac06f7b4bdfb788e14b4be685f6/meta.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mlruns/0/7f297ac06f7b4bdfb788e14b4be685f6/metrics/mae" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mlruns/0/7f297ac06f7b4bdfb788e14b4be685f6/metrics/r2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mlruns/0/7f297ac06f7b4bdfb788e14b4be685f6/metrics/rmse" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mlruns/0/7f297ac06f7b4bdfb788e14b4be685f6/params/alpha" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mlruns/0/7f297ac06f7b4bdfb788e14b4be685f6/params/colsample_bytree" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mlruns/0/7f297ac06f7b4bdfb788e14b4be685f6/params/learning_rate" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mlruns/0/7f297ac06f7b4bdfb788e14b4be685f6/params/max_depth" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mlruns/0/7f297ac06f7b4bdfb788e14b4be685f6/params/n_estimators" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mlruns/0/7f297ac06f7b4bdfb788e14b4be685f6/tags/mlflow.log-model.history" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mlruns/0/7f297ac06f7b4bdfb788e14b4be685f6/tags/mlflow.runName" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mlruns/0/7f297ac06f7b4bdfb788e14b4be685f6/tags/mlflow.source.git.commit" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mlruns/0/7f297ac06f7b4bdfb788e14b4be685f6/tags/mlflow.source.name" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mlruns/0/7f297ac06f7b4bdfb788e14b4be685f6/tags/mlflow.source.type" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mlruns/0/7f297ac06f7b4bdfb788e14b4be685f6/tags/mlflow.user" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mlruns/0/meta.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/notebooks/experiments.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/params.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/params.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements_dev.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/setup.cfg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/setup.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/data_ingestion.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/data_ingestion.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/data_transformation.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/model_evaluation.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/model_trainer.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/model_trainer.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/exception/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/exception/exception.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/logger/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/logger/logging.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pipeline/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/pipeline/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pipeline/batch_prediction.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pipeline/prediction_pipeline.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pipeline/training_pipeline.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/utils/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/utils/utils.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/start.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/streamlit_app.py" beforeDir="false" afterPath="$PROJECT_DIR$/streamlit_app.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/template.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/form.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/result.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/integration/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/unit/__init__.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -179,7 +54,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1756740226583</updated>
-      <workItem from="1756740227688" duration="16113000" />
+      <workItem from="1756740227688" duration="16749000" />
     </task>
     <servers />
   </component>
