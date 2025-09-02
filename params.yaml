@@ -1,7 +1,110 @@
-'xgboost':
-  n_estimators: 150
-  learning_rate: 0.8
-  colsample_bytree: 0.9
-  max_depth: 5
-  alpha: 0
+# Diamond Price Predictor - Model Parameters and Configuration
 
+# Data Ingestion Configuration
+data_ingestion:
+  source_url: "data/raw/sample_diamonds.csv"
+  local_data_file: "data/raw/diamonds.csv"
+  raw_data_path: "data/raw"
+  train_test_split_ratio: 0.2
+  random_state: 42
+  
+  # Data validation schema
+  required_columns:
+    - "carat"
+    - "cut" 
+    - "color"
+    - "clarity"
+    - "depth"
+    - "table"
+    - "price"
+    - "x"
+    - "y"
+    - "z"
+  
+  # Data type expectations
+  column_types:
+    carat: "float64"
+    cut: "object"
+    color: "object"
+    clarity: "object"
+    depth: "float64"
+    table: "float64"
+    price: "int64"
+    x: "float64"
+    y: "float64"
+    z: "float64"
+  
+  # Data validation ranges
+  validation_ranges:
+    carat: [0.2, 5.01]
+    depth: [43.0, 79.0]
+    table: [43.0, 95.0]
+    price: [326, 18823]
+    x: [0.0, 10.74]
+    y: [0.0, 58.9]
+    z: [0.0, 31.8]
+
+# Model Training Configuration
+model_trainer:
+  model_name: "xgboost"
+  test_size: 0.2
+  random_state: 42
+  
+  # Performance targets
+  target_accuracy: 0.95  # 95%+ R² score requirement
+  max_training_time_minutes: 10
+  cv_folds: 5
+  
+  # XGBoost hyperparameter search space for optimization
+  xgboost:
+    n_estimators: [100, 150, 200]
+    learning_rate: [0.01, 0.1, 0.2] 
+    max_depth: [3, 5, 7]
+    subsample: [0.8, 0.9, 1.0]
+    colsample_bytree: [0.8, 0.9, 1.0]
+    reg_alpha: [0, 0.1, 0.5]
+    reg_lambda: [1, 1.5, 2]
+    random_state: 42
+    
+  # Alternative models for comparison
+  random_forest:
+    n_estimators: [100, 200, 300]
+    max_depth: [10, 15, 20]
+    min_samples_split: [2, 5, 10]
+    min_samples_leaf: [1, 2, 4]
+    random_state: 42
+    
+  # Model evaluation metrics
+  metrics:
+    - "mean_absolute_error"
+    - "mean_squared_error"
+    - "root_mean_squared_error" 
+    - "r2_score"
+    - "mean_absolute_percentage_error"
+  primary_metric: "r2_score"
+  
+  # Hyperparameter optimization
+  optimization_method: "grid_search"  # grid_search, random_search
+  n_jobs: -1  # Use all available cores
+  verbose: 1
+
+# Data Transformation Configuration  
+data_transformation:
+  preprocessor_obj_file_path: "artifacts/preprocessor.pkl"
+  
+# Model Evaluation Configuration
+model_evaluation:
+  model_path: "artifacts/model.pkl"
+  target_column: "price"
+  
+# MLflow Configuration
+mlflow:
+  experiment_name: "diamond_price_prediction"
+  run_name: "xgboost_baseline"
+  tracking_uri: "http://localhost:5000"
+  
+# Logging Configuration
+logging:
+  level: "INFO"
+  format: "%(asctime)s - %(name)s - %(levelname)s - %(message)s"
+  file: "logs/diamond_predictor.log"

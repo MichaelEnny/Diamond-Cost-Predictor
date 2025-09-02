@@ -1,0 +1,32 @@
+2025-09-01 14:04:37,406 - src.logger - INFO - Diamond Price Predictor logging initialized
+2025-09-01 14:04:37,407 - src.logger - INFO - Log file created: logs\09_01_2025_14_04_37.log
+2025-09-01 14:04:37,407 - src.logger - INFO - ============================================================
+2025-09-01 14:04:37,407 - src.logger - INFO - DIAMOND PRICE PREDICTOR - MODEL TRAINER DEMO
+2025-09-01 14:04:37,407 - src.logger - INFO - ============================================================
+2025-09-01 14:04:37,410 - src.logger - INFO - Creating synthetic diamond dataset with 5000 samples...
+2025-09-01 14:04:37,422 - src.logger - INFO - Dataset created with shape: (5000, 10)
+2025-09-01 14:04:37,422 - src.logger - INFO - Price range: $300 - $14052
+2025-09-01 14:04:37,423 - src.logger - INFO - 
+Dataset Sample:
+2025-09-01 14:04:37,429 - src.logger - INFO - 
+      carat        cut color clarity  ...         x         y         z        price
+0  1.224704  Very Good     F     SI1  ...  6.801465  6.741547  4.061072  4136.440319
+1  0.933838      Ideal     G     SI1  ...  6.059910  6.110767  3.589264  2800.325380
+2  0.456621    Premium     I     SI2  ...  4.692506  4.754071  2.762429   405.999172
+3  0.393208    Premium     F     VS2  ...  4.554498  4.559700  2.745320   381.185516
+4  0.353992       Good     I     VS2  ...  4.330820  4.432558  2.713681   300.000000
+
+[5 rows x 10 columns]
+2025-09-01 14:04:37,429 - src.logger - INFO - 
+Dataset Info:
+2025-09-01 14:04:37,432 - src.logger - INFO - None
+2025-09-01 14:04:37,433 - src.logger - INFO - Preprocessing diamond dataset...
+2025-09-01 14:04:37,437 - src.logger - INFO - Processed features shape: (5000, 26)
+2025-09-01 14:04:37,437 - src.logger - INFO - Feature columns: ['carat', 'depth', 'table', 'x', 'y', 'z', 'cut_Fair', 'cut_Good', 'cut_Ideal', 'cut_Premium', 'cut_Very Good', 'color_D', 'color_E', 'color_F', 'color_G', 'color_H', 'color_I', 'color_J', 'clarity_I1', 'clarity_IF', 'clarity_SI1', 'clarity_SI2', 'clarity_VS1', 'clarity_VS2', 'clarity_VVS1', 'clarity_VVS2']
+2025-09-01 14:04:37,441 - src.logger - INFO - Training set: (4000, 27)
+2025-09-01 14:04:37,441 - src.logger - INFO - Test set: (1000, 27)
+2025-09-01 14:04:41,539 - urllib3.connectionpool - WARNING - Retrying (Retry(total=6, connect=6, read=7, redirect=7, status=7)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002A62B65D7F0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /api/2.0/mlflow/experiments/get-by-name?experiment_name=diamond_price_prediction
+2025-09-01 14:04:49,696 - urllib3.connectionpool - WARNING - Retrying (Retry(total=5, connect=5, read=7, redirect=7, status=7)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002A62B667390>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /api/2.0/mlflow/experiments/get-by-name?experiment_name=diamond_price_prediction
+2025-09-01 14:05:02,083 - urllib3.connectionpool - WARNING - Retrying (Retry(total=4, connect=4, read=7, redirect=7, status=7)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002A62B665450>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /api/2.0/mlflow/experiments/get-by-name?experiment_name=diamond_price_prediction
+2025-09-01 14:05:22,972 - urllib3.connectionpool - WARNING - Retrying (Retry(total=3, connect=3, read=7, redirect=7, status=7)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002A62B68A3F0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /api/2.0/mlflow/experiments/get-by-name?experiment_name=diamond_price_prediction
+2025-09-01 14:05:59,175 - urllib3.connectionpool - WARNING - Retrying (Retry(total=2, connect=2, read=7, redirect=7, status=7)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002A62B68A2C0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /api/2.0/mlflow/experiments/get-by-name?experiment_name=diamond_price_prediction
